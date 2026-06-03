@@ -1,5 +1,7 @@
 <template>
-    <RouterView/>
+    <VApp>
+        <RouterView/>
+    </VApp>
 </template>
 
 <script setup lang="ts">
