@@ -5,7 +5,7 @@ import StorageService from './storage.service';
 import en from '@/locales/en/index';
 import fa from '@/locales/fa/index';
 
-import type { Locale } from '@/types/locale';
+type Locale = 'en' | 'fa';
 
 class LanguageService {
     static readonly STORAGE_KEY: string = 'locale';
@@ -31,7 +31,10 @@ export default LanguageService;
 const i18n = createVueI18N({
     locale: LanguageService.get(),
     fallbackLocale: LanguageService.DEFAULT,
-    messages: { en, fa }
+    messages: {
+        en,
+        fa
+    }
 });
 
 export function createI18n() {
