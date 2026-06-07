@@ -18,6 +18,6 @@ export interface ApiResponse<T = unknown> extends AxiosResponse<ApiResponseData<
 
 export type RequestOnFulfilled = (config: InternalAxiosRequestConfig) => InternalAxiosRequestConfig | Promise<InternalAxiosRequestConfig>;
 
-export type ResponseOnFulfilled<T = unknown> = (response: AxiosResponse<T>) => AxiosResponse<T> | Promise<AxiosResponse<T>>;
+export type ResponseOnFulfilled<T = unknown> = (response: ApiResponse<T>) => ApiResponse<T> | Promise<ApiResponse<T>>;
 
 export type ResponseOnRejected = (error: AxiosError) => unknown;
