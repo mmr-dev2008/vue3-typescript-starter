@@ -8,7 +8,7 @@ import fa from '@/locales/fa/index';
 type Locale = 'en' | 'fa';
 
 class LanguageService {
-    static readonly STORAGE_KEY: string = 'locale';
+    private static readonly STORAGE_KEY: string = 'locale';
 
     static readonly DEFAULT: Locale = 'en';
 

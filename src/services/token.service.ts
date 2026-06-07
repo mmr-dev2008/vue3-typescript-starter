@@ -1,7 +1,7 @@
 import StorageService from './storage.service';
 
 class TokenService {
-    static readonly STORAGE_KEY: string = 'auth_token';
+    private static STORAGE_KEY: string = 'auth_token';
 
     static set(value: string): void {
         StorageService.set<string>(this.STORAGE_KEY, value);
