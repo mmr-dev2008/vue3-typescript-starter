@@ -12,7 +12,20 @@ export default defineConfig({
         vue(),
         vueDevTools(),
         ui({
-            prefix: 'V'
+            prefix: 'V',
+            colorMode: false,
+            ui: {
+                colors: {
+                    primary: 'primary',
+                    secondary: 'secondary',
+                    accent: 'accent',
+                    success: 'success',
+                    warning: 'warning',
+                    error: 'error',
+                    info: 'info',
+                    neutral: 'neutral'
+                }
+            }
         })
     ],
 

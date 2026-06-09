@@ -5,17 +5,17 @@
 
 @theme static {
     /* ─── PRIMARY · burnt travel orange ─── */
-    --color-primary-50:  #E8EEF6;
-    --color-primary-100: #D0DDED;
-    --color-primary-200: #A2BBDB;
-    --color-primary-300: #7398C9;
-    --color-primary-400: #4575B7;
-    --color-primary-500: #2558A0;
-    --color-primary-600: #1D4680;
-    --color-primary-700: #163460;
-    --color-primary-800: #143655;
-    --color-primary-900: #0A2540;
-    --color-primary-950: #061628;
+    --color-primary-50:  #FBEDE8;
+    --color-primary-100: #F7D9CD;
+    --color-primary-200: #F0B49C;
+    --color-primary-300: #E88E6B;
+    --color-primary-400: #E06B43;
+    --color-primary-500: #D84F2A;
+    --color-primary-600: #BE4423;
+    --color-primary-700: #9A371C;
+    --color-primary-800: #762A14;
+    --color-primary-900: #521D0D;
+    --color-primary-950: #2E0F07;
 
     /* ─── SECONDARY · trust navy ─── */
     --color-secondary-50:  #E8EEF6;
