@@ -12,6 +12,8 @@ import { createI18n } from './services/language.service';
 
 import ui from '@nuxt/ui/vue-plugin';
 
+import '@valibot/i18n/fa';
+
 const app = createApp(App);
 
 app.use(createPinia());
