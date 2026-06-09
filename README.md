@@ -1,4 +1,4 @@
-# vue3-typescript-starter
+# vue3-starter-template-typescript
 
 This template should help get you started developing with Vue 3 in Vite.
 
